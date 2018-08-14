@@ -33,7 +33,7 @@ int main()
     bool wo_switch_win = false;
     bool w_switch_win = false;
 
-	do {
+    do {
     	wo_switch.setupGame();
     	w_switch.setupGame();
         wo_switch_win = wo_switch.chooseDoor();
