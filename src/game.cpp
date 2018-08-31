@@ -3,7 +3,8 @@
  */
  
 /* INCLUDES */
-#include <time.h>
+#include <cstdlib> // To call rand()/srand()
+#include <iostream> // To call cout/cin
 #include "game.hpp"
 
 /* MACROS */
@@ -45,7 +46,6 @@ void Game::setupGame()
 
 bool Game::chooseDoor()
 {
-    //srand(time(NULL));
     int index = rand() % 3;
 
     return this->door[index];
